@@ -1,0 +1,71 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hi there! How can I assist you with customer economics today?"]
+    },
+    {
+      "tag": "customer_lifetime_value",
+      "patterns": ["What is customer lifetime value", "Explain CLV", "How do I calculate CLV", "Customer value over time"],
+      "responses": ["Customer Lifetime Value (CLV) estimates the total revenue a business can expect from a customer throughout their relationship. It's calculated using average purchase value × purchase frequency × customer lifespan."]
+    },
+    {
+      "tag": "customer_acquisition_cost",
+      "patterns": ["What is customer acquisition cost", "How do I calculate CAC", "Explain CAC", "Cost to acquire a customer"],
+      "responses": ["Customer Acquisition Cost (CAC) is the total cost to acquire a new customer. It's calculated as: Total marketing + sales expenses ÷ number of new customers acquired."]
+    },
+    {
+      "tag": "customer_retention",
+      "patterns": ["Why is customer retention important", "How to improve customer retention", "Retention vs acquisition"],
+      "responses": ["Customer retention is crucial because retaining customers is cheaper than acquiring new ones and retained customers tend to spend more over time."]
+    },
+    {
+      "tag": "behavioral_economics",
+      "patterns": ["How does behavioral economics affect customers", "Why do people buy impulsively", "Explain anchoring effect", "What is choice overload"],
+      "responses": [
+        "Behavioral economics studies how psychological factors influence consumer decisions. For example, anchoring is when customers rely too heavily on the first piece of information they see.",
+        "Impulsive buying is often driven by emotion, scarcity, or convenience."
+      ]
+    },
+    {
+      "tag": "neuromarketing",
+      "patterns": ["What is neuromarketing", "How does emotion affect buying", "Brain science in marketing"],
+      "responses": [
+        "Neuromarketing uses brain science to understand how consumers make decisions. It studies things like attention, emotion, and memory to improve marketing effectiveness."
+      ]
+    },
+    {
+      "tag": "segmentation",
+      "patterns": ["What is customer segmentation", "Why segment customers", "How do I segment my customers"],
+      "responses": ["Customer segmentation divides customers into groups based on behavior, demographics, or needs. It helps tailor marketing and improves targeting."]
+    },
+    {
+      "tag": "churn_rate",
+      "patterns": ["What is churn rate", "How to reduce churn", "Why customers leave", "Customer attrition"],
+      "responses": ["Churn rate is the percentage of customers who stop using your service over a period. Reducing churn involves improving satisfaction, offering incentives, and understanding pain points."]
+    },
+    {
+      "tag": "pricing_psychology",
+      "patterns": ["What is pricing psychology", "Why does 9.99 pricing work", "How do prices affect perception"],
+      "responses": [
+        "Pricing psychology uses tactics like charm pricing ($9.99), decoy pricing, and bundling to influence consumer perception and behavior."
+      ]
+    },
+    {
+      "tag": "market_trends",
+      "patterns": ["What are the latest customer trends", "Trends in customer behavior", "How is customer loyalty changing"],
+      "responses": [
+        "Recent trends include hyper-personalization, subscription models, ethical shopping, and AI-powered customer experiences."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "That's a complex one! Could you rephrase it or ask a more specific question about customer economics?",
+        "Hmm, I don't have that answer right now, but I'm learning every day!"
+      ]
+    }
+  ]
+}
