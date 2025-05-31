@@ -21,4 +21,5 @@ def chatbot_response():
     return jsonify({"response": "I'm sorry, I don't understand. Could you please rephrase?"})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8000)
+
